@@ -94,6 +94,7 @@
   \ifthenelse{\isempty{#1}}%
     {\href{#2}{#2}}
     {\href{#2}{#1}}}
+    
 \newcommand{\linkedinsquare}[2][]{\faLinkedinSquare\ 
   \ifthenelse{\isempty{#1}}%
     {\href{#2}{#2}}
@@ -119,4 +120,9 @@
 \newcommand{\role}[2]{
   {\par \textit{#1} ~ #2 \par}
   \vspace{0.85ex}
+}
+
+\newcommand{\Profile}[1]{
+  \vspace{0.85ex}
+  \sffamily{#1} \par
 }
