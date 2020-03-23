@@ -117,8 +117,8 @@
   \vspace{1.5ex}
 }
 
-\newcommand{\role}[2]{
-  {\par \textit{#1} ~ #2 \par}
+\newcommand{\role}[3]{
+  {\par \textit{#1} ~ #2 ~ #3 \par}
   \vspace{0.85ex}
 }
 
